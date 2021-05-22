@@ -1,0 +1,15 @@
+Word=""
+space = " "
+large = int(input("How large? odd only: "))
+while large % 2 == 0:
+	large = int(input("DO IT CORRECTLY MATE, ODD ONLY: "))
+
+letter = input("What characters? ")
+for row in range(0,large): 
+	for column in range(0,large):
+		if (((column == 0 and column == large-1) or row+column == large-1) or row*column == row**2) and not (row == 0 and column) or (row == 0 and column == large-1):
+			Word += letter 
+		else: 
+			Word += space*len(letter)
+	Word += "\n" 
+print(Word)

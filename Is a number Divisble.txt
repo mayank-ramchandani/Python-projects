@@ -1,0 +1,14 @@
+def inputnumbers():
+    x = int(input("Enter the value of number"))
+    y = int(input("Enter the value of divisible"))
+    return x,y
+def isDivisible(Num1 , Num2):
+    if Num1 %Num2 == 0 :
+        return True
+    else:
+        return False
+def Main():
+    x,y = inputnumbers() 
+    isDivisible(x,y) 
+    
+Main()

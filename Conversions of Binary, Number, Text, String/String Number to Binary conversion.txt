@@ -1,0 +1,18 @@
+Num = int(input("Enter a number greater than zero, bro/sis"))
+BinaryString =""
+PlaceValue = 8
+Original = Num
+if Num %2 != 0 :
+    Num -= 1
+while Num != 0 :
+    if Num >= PlaceValue :
+        BinaryString += "1"
+        Num -= PlaceValue
+    else :
+        BinaryString += "0"
+        PlaceValue /= 2
+if Original %2 == 0:
+    BinaryString += "0"
+else:
+    BinaryString += "1"
+print(BinaryString)

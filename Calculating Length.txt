@@ -1,0 +1,7 @@
+length = len(olo)
+array = [0 for i in range(length)]
+for o in range(length):
+    if (olo[o]) == " " :
+        array[o] = "empty"
+    else :
+        array[o] = olo[o]

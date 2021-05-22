@@ -1,0 +1,56 @@
+def units and tens():
+    if len(n) == 1 :
+       word += 'one'
+          elif n(0) == 2:
+                    word += 'two'
+                elif n(0) == 3:
+                    word += 'three'
+                elif n(0) == 4:
+                    word += 'four'
+                elif n(0) == 5:
+                    word += 'five'
+                elif n(0) == 6:
+                    word += 'six'
+                elif n(0) == 7:
+                    word += 'seven'
+                elif n(0) == 8:
+                    word += 'eight'
+                elif n(0) == 9:
+                    word += 'nine'
+            elif len(n) == 2 :
+                if n == '10':
+                    word += 'ten'
+                elif n == '11':
+                    word += 'eleven'
+                elif n == '12':
+                    word += 'twelve'
+                elif n == '13':
+                    word += 'thirteen'
+                elif n == '14':
+                    word += 'fourteen'
+                elif n == '15':
+                    word += 'fifteen'
+                elif n == '16':
+                    word += 'sixteen'
+                elif n == '17':
+                    word += 'seventeen'
+                elif n == '18':
+                    word += 'eighteen'
+                elif n == '19':
+                    word += 'nineteen'
+            if n(1) == '2':
+                word += 'twenty'
+            if n(1) == '3':
+                word += 'thirty'
+            if n(1) == '4':
+                word += 'forty'
+            if n(1) == '5':
+                word += 'fifty'
+            elif n(1) == '6':
+                word += 'sixty'
+            elif n(1) == '7':
+                word += 'seventy'
+            elif n(1) == '8':
+                word += 'eighty'         
+            elif n(1) == '9':
+                word += 'ninety'        
